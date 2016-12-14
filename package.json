@@ -8,6 +8,8 @@
   },
   "author": "Michael Lewis <mike@lew42.com>",
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "track42": "^1.0.0"
+  },
   "devDependencies": {}
 }

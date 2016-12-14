@@ -1,7 +1,7 @@
-var create_constructor = require("./create_constructor");
+var create_constructor = require("./createConstructor");
 var extend = require("./extend");
 
-var track = require("track");
+var track = require("track42");
 
 
 var Base1 = create_constructor("Base1");

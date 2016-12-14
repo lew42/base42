@@ -1,4 +1,4 @@
-var track = require("track");
+var track = require("track42");
 
 var extend = function(o){
 	var name, Ext;

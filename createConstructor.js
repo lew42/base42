@@ -1,7 +1,7 @@
 var assign = require("./assign");
-var track = require("track");
+var track = require("track42");
 
-var create_constructor = function(name){
+var createConstructor = function(name){
 	eval("var " + name + ";");
 	var constructor = eval("(" + name + " = function " + name + "(){\r\n\
 	if (!(this instanceof " + name + "))\r\n\
@@ -15,4 +15,4 @@ var create_constructor = function(name){
 	return constructor;
 };
 
-module.exports = create_constructor;
+module.exports = createConstructor;
