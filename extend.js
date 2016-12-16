@@ -7,7 +7,7 @@ var extend = function(o){
 	if (o && o.name)
 		delete o.name; // otherwise it gets assigned to prototype...
 	
-	Ext = this.create_constructor(name);
+	Ext = this.createConstructor(name);
 
 	// Constructor.props
 	Ext.assign(this);
