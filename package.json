@@ -11,5 +11,9 @@
   "dependencies": {
     "track42": "^1.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "test42": "^1.0.0",
+    "util42": "^1.0.1"
+  }
 }
